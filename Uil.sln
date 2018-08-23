@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Uil", "src\Uil\Uil.fsproj", "{B2949126-0C79-4B9B-83A7-76A2FF3985EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Paket", "Paket", "{06369F0D-6F18-4E72-90F2-C1531DB5DA75}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{BA026A93-6607-4943-AC13-BF51EBFF46FC}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.fsx = build.fsx
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{D96C6C2B-A7C5-47F8-A6E8-91B1485A5699}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2949126-0C79-4B9B-83A7-76A2FF3985EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2949126-0C79-4B9B-83A7-76A2FF3985EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2949126-0C79-4B9B-83A7-76A2FF3985EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2949126-0C79-4B9B-83A7-76A2FF3985EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C272051-FE46-4326-9207-8C9C699972E2}
+	EndGlobalSection
+EndGlobal
